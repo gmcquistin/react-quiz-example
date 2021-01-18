@@ -45,7 +45,7 @@ export function Quiz({ questions }) {
       />
       <Navigation
         currentQuestionIndex={currentQuestionIndex}
-        maxQuestionIndex={questions.length}
+        maxQuestionIndex={questions.length - 1}
         onIndexChange={(i) => setCurrentQuestionIndex(i)}
         onCompleteClick={() => setComplete(true)}
       />

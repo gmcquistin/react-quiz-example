@@ -4,7 +4,7 @@ export function Navigation({
   onIndexChange,
   onCompleteClick,
 }) {
-  const isLastQuestion = currentQuestionIndex === maxQuestionIndex - 1;
+  const isLastQuestion = currentQuestionIndex === maxQuestionIndex;
   const isFirstQuestion = currentQuestionIndex === 0;
 
   return (
