@@ -1,0 +1,17 @@
+[
+  {
+    "text": "What is the capital of France?",
+    "options": ["Glasgow", "Rome", "Paris"],
+    "correct_option": 2
+  },
+  {
+    "text": "How many states form the United States?",
+    "options": [45, 50, 55, 60],
+    "correct_option": 1
+  },
+  {
+    "text": "What's the best frontend framework?",
+    "options": ["React", "Vue", "Svelte", "Whatever makes you happy"],
+    "correct_option": 3
+  }
+]
